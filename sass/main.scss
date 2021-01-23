@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;900&display=swap');
+
+$font-primary: 'Poppins',
+sans-serif;
+
+.navbar {
+     font-family: $font-primary;
+
+     h4 {
+          font-weight: 600;
+     }
+
+     .dropdown-item {
+          color: #ffc107;
+
+          &:hover {
+               font-weight: 600;
+               background-color: #ffc107;
+               color: white;
+
+          }
+     }
+
+     .collapse {
+          form {
+               .form-control {
+                    border-radius: 50px;
+               }
+
+               .btn {
+                    border-radius: 50%;
+               }
+          }
+     }
+}
+
+.card {
+
+     border: none;
+     border-radius: 0;
+     font-family: $font-primary;
+
+     .card-header {
+          border: none;
+          border-radius: 0;
+
+          b {
+               font-weight: 600;
+          }
+     }
+
+     .card-body {
+
+          h5 {
+               font-weight: 600;
+          }
+
+          .tombol {
+               border-radius: 50px;
+               background-color: #ffc107;
+               color: #2b2b2b;
+               font-weight: 600;
+
+               &:hover {
+                    border-color: #2b2b2b;
+                    background-color: #2b2b2b;
+                    color: #ffffff;
+               }
+          }
+
+          .tombol-save {
+               border-radius: 50px;
+               background-color: #ffffff;
+               color: #28a745;
+               font-weight: 600;
+
+               &:hover {
+                    border-color: #28a745;
+                    background-color: #28a745;
+                    color: #ffffff;
+               }
+          }
+
+          .tombol-reset {
+               border-radius: 50px;
+               background-color: #ffffff;
+               color: #dc3545;
+               font-weight: 600;
+
+               &:hover {
+                    border-color: #dc3545;
+                    background-color: #dc3545;
+                    color: #ffffff;
+               }
+          }
+     }
+}
+
+.tambah {
+
+     a {
+          font-family: $font-primary;
+          padding-left: 50px;
+          padding-right: 50px;
+          border-radius: 50px;
+          border-color: #ffc107;
+          background-color: #ffffff;
+          color: #ffc107;
+
+          &:hover {
+               background-color: #ffc107;
+          }
+
+     }
+}
+
+.alert {
+     font-family: $font-primary;
+     font-weight: 600;
+}
+
+table {
+     font-family: $font-primary;
+
+     thead {
+          tr {
+               th {
+                    font-weight: 600;
+               }
+          }
+     }
+}
+
+.footer {
+     font-family: $font-primary;
+     padding: 5px;
+
+     h6 {
+          margin-top: 5px;
+          font-weight: 600;
+     }
+}
+
+.login {
+     font-family: $font-primary;
+
+     form {
+          .tombol {
+               border-radius: 50px;
+               background-color: #ffc107;
+               color: #2b2b2b;
+               font-weight: 600;
+               padding-left: 40px;
+               padding-right: 40px;
+
+               &:hover {
+                    border-color: #2b2b2b;
+                    background-color: #2b2b2b;
+                    color: #ffffff;
+               }
+          }
+     }
+}
